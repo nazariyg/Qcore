@@ -92,8 +92,8 @@ public:
     enum ExceptionType
     {
         ET_CANNOT_ACCESS_FILE,                      // saving and loading
-        ET_FORMAT_IDENTIFIER_MISMATCH,          // loading
-        ET_FORMAT_MISMATCH,                     // loading
+        ET_FORMAT_IDENTIFIER_MISMATCH,              // loading
+        ET_FORMAT_MISMATCH,                         // loading
         ET_ARITHMETIC_CODING_NOT_SUPPORTED,         // loading
         ET_LOSSLESS_COMPRESSION_NOT_SUPPORTED,      // loading
         ET_HIERARCHICAL_COMPRESSION_NOT_SUPPORTED,  // loading

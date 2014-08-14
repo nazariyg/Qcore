@@ -140,8 +140,8 @@ public:
     {
         ET_VISIBILITY_MASK_SIMULTANEOUSLY_WITH_ALL_POSSIBLE_COLOR_VALUES_USED,  // saving
         ET_CANNOT_ACCESS_FILE,                                                  // saving and loading
-        ET_FORMAT_IDENTIFIER_MISMATCH,                                      // loading
-        ET_FORMAT_MISMATCH,                                                 // loading
+        ET_FORMAT_IDENTIFIER_MISMATCH,                                          // loading
+        ET_FORMAT_MISMATCH,                                                     // loading
         ET_UNKNOWN_CRITICAL_CHUNK_ENCOUNTERED,                                  // loading
         ET_ZLIB_EXCEPTION                                                       // loading
     };
