@@ -4,7 +4,7 @@
 
 Qcore library primarily focuses on ease of use, performance, reliability, and overall Quality.
 
-The platform-specific declarations in [System/QSystem.h](Qcore/System/QSystem.h) lay out a foundation upon which the the library is built. The supported platforms are Windows (MSVC), OS X, and Linux.
+The platform-specific declarations in [System/QSystem.h](Qcore/System/QSystem.h) lay out a foundation upon which the library is built. The supported platforms are Windows (MSVC), OS X, and Linux.
 
 The collection of classes in [Storage/Heap/](Qcore/Storage/Heap) allows for native look and feel of smart pointers in C++. Principally implemented by the QHeap class ([.h](Qcore/Storage/Heap/QHeap.h), [.cpp](Qcore/Storage/Heap/QHeap.cpp)) and its satellite QSmartPointer class ([.h](Qcore/Storage/Heap/QSmartPointer.h), [.inl](Qcore/Storage/Heap/QSmartPointer.inl)), the smart pointer system of Qcore take away most of the worries about when and how the memory allocated with the creation of an object of a class is going to be deallocated. An object of any class that derives from the QHeap class gets destructed, entailing the destruction of its member data and so on, and is deallocated automatically when the object's reference counter hits zero with the last smart pointer having detached from the object. On practice, smart pointers are just like native C++ pointers. A smart pointer evaluates to the address of the object it points to, its `->` operator is used for accessing the member functions and the member data of the object, `*` operator is used for dereferencing, `=` operator for assigning, and `==` and `!=` operators for comparison. Other C++ libraries may have memory leaks if they want, but not Qcore.
 
