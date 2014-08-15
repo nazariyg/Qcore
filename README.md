@@ -1,6 +1,6 @@
 # Qcore
 
-**Qcore** is a C/C++ library that implements smart pointers, run-time type introspection, efficient arrays, maps, sets, and lists, fast sorting, various algorithms for data compression, image processing, about 20 image formats, pieces from computational geometry, and a lightweight but well-featured 3D engine.
+Qcore is a C/C++ library that implements smart pointers, run-time type introspection, efficient arrays, maps, sets, and lists, fast sorting, various algorithms for data compression, image processing, about 20 image formats, pieces from computational geometry, and a lightweight but well-featured 3D engine.
 
 Qcore library primarily focuses on ease of use, performance, reliability, and overall Quality.
 
